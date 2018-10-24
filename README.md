@@ -1,4 +1,4 @@
-# graphNet
+# GraphNet
 
 GraphNet is a small and simple library for creating simple graphs.
 
