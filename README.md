@@ -10,6 +10,12 @@ Written in c# .net standard.
 Based on:
 https://github.com/eternnoir/graphvizapi
 
+# Ideas for further work: 
+- Supported attributes for the dot-language and the layout engines in code.
+- Direct integration into graphviz layout engine?
+- Include own layout engine?
+- Include own renderers?
+
 
 # Documentation
 
