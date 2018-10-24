@@ -3,7 +3,7 @@
 DotGraphNet is a small and simple library for creating simple graphs.
 
 The api let's you create objects representing graphs, sub-graphs, nodes and edges in code.
-Then the graph can be converted into a file written in the dot-language for further processing with the open source graph visualization software Graphviz. 
+Then the graph can be converted into a file written in the dot-language for further processing with the open source graph visualization software Graphviz or any other tool that can read the dot-language. 
 
 Written in c# .net standard. 
 
@@ -76,7 +76,10 @@ https://github.com/eternnoir/graphvizapi
 
 ## How to run the generated dot-file:
 
-### From the command line: 
+### Using http://viz-js.com/: 
+Just paste the generated dot-language file contents and have a look!
+
+### Using Graphviz from the command line: 
 
 dot.exe -Tpng inputfile.dot -o outfile.png
 
@@ -86,7 +89,7 @@ The argument -T defines the rendered output format. Graphviz supports a range of
 
 See http://www.graphviz.org/doc/info/output.html for the supported output formats. 
 
-### Graphviz GUI: 
+### Using Graphviz GUI: 
 
 Graphviz comes with a simple editor for creating graphs called GVEdit. It is located in the installations bin directory and has the name gvedit.exe. 
 
