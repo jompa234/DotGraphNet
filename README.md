@@ -72,7 +72,7 @@ https://github.com/eternnoir/graphvizapi
 
 ### From the command line: 
 
-dot.exe -Tpng C:\temp\inputfile.dot -o C:\temp\outfile.png
+dot.exe -Tpng inputfile.dot -o outfile.png
 
 Dot.exe is the executable for the dot layout engine. Graphviz comes with multiple layout engines. There are executables for other layout engines like neato and twopi. 
 
