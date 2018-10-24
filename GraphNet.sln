@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2046
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphNet", "src\GraphNet\GraphNet.csproj", "{DA31CE59-5766-4680-BC7A-E37483056E0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphNet.UTests", "test\GraphNet.UTests\GraphNet.UTests.csproj", "{56F12DCA-8CE3-4347-9187-FA5CF3FE1F9D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA31CE59-5766-4680-BC7A-E37483056E0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA31CE59-5766-4680-BC7A-E37483056E0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA31CE59-5766-4680-BC7A-E37483056E0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA31CE59-5766-4680-BC7A-E37483056E0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56F12DCA-8CE3-4347-9187-FA5CF3FE1F9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56F12DCA-8CE3-4347-9187-FA5CF3FE1F9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56F12DCA-8CE3-4347-9187-FA5CF3FE1F9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56F12DCA-8CE3-4347-9187-FA5CF3FE1F9D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1EC8619F-13C6-4516-8EA7-3A2286E7A616}
+	EndGlobalSection
+EndGlobal
