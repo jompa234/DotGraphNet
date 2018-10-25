@@ -76,8 +76,9 @@ https://github.com/eternnoir/graphvizapi
 
 ## How to run the generated dot-file:
 
-### Using http://viz-js.com/: 
-Just paste the generated dot-language file contents and have a look!
+### Using an online tool: 
+There are multiple editors online that can be used to edit and view dot-files and graphs: 
+Check out http://viz-js.com/
 
 ### Using Graphviz from the command line: 
 
